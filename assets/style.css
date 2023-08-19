@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 125%%;
+  font-family: "Orbitron", sans-serif;
+}
+
+header {
+  background-color: darkolivegreen;
+  padding: 20px;
+  border-bottom: 15px solid wheat;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 15px;
+  align-content: center;
+  display: inline-block;
+}
+
+nav {
+  font-size: 2rem;
+  list-style-type: none;
+  float: right;
+  margin-top: 50px;
+}
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+  font-size: 1.2rem;
+}
+body section article { */
+   display: inline-block;
+}
+
+.projects {
+  width: 30%;
+  height: 100vh;
+  border: 10px solid darkolivegreen;
+  border-radius: 15px;
+  box-shadow: 5px 5px wheat;
+  margin: 10px 0px;
+}
+.bootcamp {
+  height: 50%;
+  width: 50%;
+}
+.content {
+  display: inline-block;
+  width: 75%;
+  height: 75%;
+  margin-left: 15px;
+  border: 10px solid black;
+}
