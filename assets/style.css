@@ -17,6 +17,9 @@ h1 {
   align-content: center;
   display: inline-block;
 }
+h2 {
+  text-align: center;
+}
 
 nav {
   font-size: 2rem;
@@ -50,5 +53,17 @@ body section article { */
   width: 75%;
   height: 75%;
   margin-left: 15px;
+flex-direction: column;
+  
+  
+}
+.content article {
   border: 10px solid black;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+footer {
+  background-color: darkolivegreen;
+  border-top: 5px solid wheat;
 }
