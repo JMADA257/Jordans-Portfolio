@@ -32,38 +32,61 @@ nav ul li {
   margin-left: 15px;
   font-size: 1.2rem;
 }
-body section article { */
-   display: inline-block;
+
+.column {
+  float: left;
+  width: 50%;
+  height: 100vh;
 }
 
-.projects {
-  width: 30%;
-  height: 100vh;
-  border: 10px solid darkolivegreen;
+#main {
+  margin: 10px 10px 0px 15px;
+  width: 66vw;
+}
+
+#projects {
+  margin: 10px 10px 0px 15px;
+  border: 5px solid black;
+  width: 30vw;
   border-radius: 15px;
-  box-shadow: 5px 5px wheat;
-  margin: 10px 0px;
+  background-color: darkolivegreen;
+  color: wheat;
+  box-shadow: 5px 10px 15px wheat;
 }
 .bootcamp {
-  height: 50%;
-  width: 50%;
-}
-.content {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 15px;
+  vertical-align: middle;
   display: inline-block;
-  width: 75%;
-  height: 75%;
-  margin-left: 15px;
-flex-direction: column;
-  
-  
-}
-.content article {
-  border: 10px solid black;
-  margin: 5px 0px;
-  padding: 5px;
 }
 
-footer {
-  background-color: darkolivegreen;
-  border-top: 5px solid wheat;
+.me {
+  border: 0.2rem solid black;
+  border-radius: 10px;
+  margin: 0.5rem 0px;
+  min-height: 33vh;
 }
+
+.contact {
+  border: 0.2rem solid black;
+  border-radius: 10px;
+  margin: 0.5rem 0px;
+  min-height: 33vh;
+}
+.extra {
+  border: 0.2rem solid black;
+  margin: 0.5rem 0px;
+  border-radius: 10px;
+  min-height: 33vh;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+/* footer {
+  background-color: darkolivegreen;
+} */
