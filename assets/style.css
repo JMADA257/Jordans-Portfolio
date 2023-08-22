@@ -17,8 +17,33 @@ h1 {
   align-content: center;
   display: inline-block;
 }
-h2 {
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
+}
+img {
+  align-self: center;
+}
+.img-info {
+  width: 15%;
+  height: 15%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.img-aside {
+  width: 30%;
+  height: 30%;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin-top: 1rem;
 }
 
 nav {
@@ -33,10 +58,46 @@ nav ul li {
   font-size: 1.2rem;
 }
 
-.column {
+nav a:hover {
+  font-size: 150%;
+  border: 2px solid black;
+  box-shadow: inset 3px 3px 10px black;
+}
+
+h3 img {
   float: left;
+}
+
+img {
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container-aside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.container-aside p {
+  float: right;
+}
+
+#container p {
+  margin-left: 10px;
+}
+
+.column {
   width: 50%;
   height: 100vh;
+  float: left;
 }
 
 #main {
@@ -57,8 +118,12 @@ nav ul li {
   height: 15rem;
   width: 15rem;
   border-radius: 15px;
-  vertical-align: middle;
-  display: inline-block;
+}
+
+.prework {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 15px;
 }
 
 .me {
@@ -68,25 +133,15 @@ nav ul li {
   min-height: 33vh;
 }
 
-.contact {
-  border: 0.2rem solid black;
-  border-radius: 10px;
-  margin: 0.5rem 0px;
-  min-height: 33vh;
-}
 .extra {
   border: 0.2rem solid black;
   margin: 0.5rem 0px;
   border-radius: 10px;
-  min-height: 33vh;
+  min-height: 20vh;
 }
 
-h2,
-h3,
-h4 {
-  text-align: center;
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100vw;
+  }
 }
-
-/* footer {
-  background-color: darkolivegreen;
-} */
