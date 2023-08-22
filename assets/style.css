@@ -26,17 +26,7 @@ aside {
 }
 img {
   align-self: center;
-}
-.img-info {
-  width: 15%;
-  height: 15%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 10px gray;
-}
-
-.img-aside {
-  width: 30%;
-  height: 30%;
+  margin: 1rem;
 }
 
 h2,
@@ -64,17 +54,67 @@ nav a:hover {
   box-shadow: inset 3px 3px 10px black;
 }
 
+img:hover {
+  box-shadow: 5px 5px 15px black;
+}
+
 h3 img {
   float: left;
 }
 
-img {
-  margin: 1rem;
+article {
+  background-color: darkolivegreen;
+  color: wheat;
+}
+
+article:hover {
+  box-shadow: 10px 10px 15px wheat;
+}
+footer {
+  background-color: darkolivegreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  height: 10%;
+  color: wheat;
+  font-size: 1.5rem;
+}
+
+li {
+  margin-left: 15px;
+}
+
+#container p {
+  margin-left: 10px;
+}
+
+#main {
+  margin: 10px 10px 0px 15px;
+  width: 66vw;
+}
+
+#projects {
+  margin: 10px 10px 20px 15px;
+  border: 5px solid black;
+  width: 30vw;
+  border-radius: 15px;
+  background-color: darkolivegreen;
+  color: wheat;
+  box-shadow: 5px 10px 15px wheat;
+}
+
+.img-info {
+  width: 15%;
+  height: 15%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px gray;
 }
 
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .container-aside {
@@ -90,40 +130,22 @@ img {
   float: right;
 }
 
-#container p {
-  margin-left: 10px;
-}
-
 .column {
   width: 50%;
   height: 100vh;
   float: left;
 }
 
-#main {
-  margin: 10px 10px 0px 15px;
-  width: 66vw;
-}
-
-#projects {
-  margin: 10px 10px 0px 15px;
-  border: 5px solid black;
-  width: 30vw;
-  border-radius: 15px;
-  background-color: darkolivegreen;
-  color: wheat;
-  box-shadow: 5px 10px 15px wheat;
-}
 .bootcamp {
-  height: 15rem;
-  width: 15rem;
-  border-radius: 15px;
+  height: 22rem;
+  width: 35rem;
+  border-radius: 60px;
 }
 
 .prework {
-  height: 10rem;
-  width: 10rem;
-  border-radius: 15px;
+  height: 15rem;
+  width: rem;
+  border-radius: 100px;
 }
 
 .me {
@@ -135,7 +157,7 @@ img {
 
 .extra {
   border: 0.2rem solid black;
-  margin: 0.5rem 0px;
+  margin: 5rem 0px;
   border-radius: 10px;
   min-height: 20vh;
 }
