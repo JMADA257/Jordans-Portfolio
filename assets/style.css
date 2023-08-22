@@ -1,3 +1,5 @@
+
+/*This controls everything for the whole HTML page.*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,11 +8,15 @@
   font-family: "Orbitron", sans-serif;
 }
 
+
+/*This controls the header element*/
 header {
   background-color: darkolivegreen;
   padding: 20px;
   border-bottom: 15px solid wheat;
 }
+
+/* Centererd the h1 on the cross access and made this an inline block opposed to a block*/
 h1 {
   font-size: 2.5rem;
   margin: 15px;
@@ -18,17 +24,21 @@ h1 {
   display: inline-block;
 }
 
+/*Marked aside as a flexbox, changed the direction from row to column and then I have the text wrap on itself followed by centering it on the cross axis*/
 aside {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
 }
+
+/*Used to center all imgs and put margins on for 1rem which equals 20px*/
 img {
   align-self: center;
   margin: 1rem;
 }
 
+/* Aligns all headers expect h1 to the center with a margin of 1rem or eaual to 20px*/
 h2,
 h3,
 h4 {
@@ -36,6 +46,7 @@ h4 {
   margin-top: 1rem;
 }
 
+/*Sets the nav bar to float right with no bullet points and has a font size of 40px with a margin above it of 50px*/
 nav {
   font-size: 2rem;
   list-style-type: none;
@@ -68,7 +79,7 @@ article {
 }
 
 article:hover {
-  box-shadow: 10px 10px 15px wheat;
+  box-shadow: 10px 10px 5px wheat;
 }
 footer {
   background-color: darkolivegreen;
@@ -162,8 +173,18 @@ li {
   min-height: 20vh;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
   .column {
-    width: 100vw;
+    
+
+
+
   }
 }
