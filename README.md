@@ -38,3 +38,5 @@ Custom Nav bar with working links to take you to things like a contact me sectio
 Words of encouragement!
 
 ## No tests atm but heres links!
+Git hub portfolio page - https://github.com/JMADA257/Jordans-Portfolio
+Portfolio website - https://jmada257.github.io/Jordans-Portfolio/
