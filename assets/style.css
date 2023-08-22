@@ -1,4 +1,5 @@
-This controls everything for the whole HTML page. * {
+/*This controls everything for the whole HTML page. */
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -33,6 +34,7 @@ aside {
   text-align: center;
   width: 30vw !important;
 }
+/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
 
 /*Used to center all imgs and put margins on for 1rem which equals 20px*/
 img {
@@ -76,10 +78,12 @@ article {
   background-color: darkolivegreen;
   color: wheat;
 }
-
+/*Added a hover ability*/
 article:hover {
   box-shadow: 10px 10px 5px wheat;
 }
+
+/*Worked on footer*/
 footer {
   background-color: darkolivegreen;
   width: 100%;
@@ -90,38 +94,41 @@ footer {
   color: wheat;
   font-size: 1.5rem;
 }
-
+/*updating margins*/
 li {
   margin-left: 15px;
 }
-/*Set main to a flexbox*/
+
+/*Needed main to be a flex to control it better*/
 main {
   display: flex;
 }
 
+/*Updating margins*/
 .about {
   margin: 0 40px;
 }
 
+/*Updating margins*/
 #container p {
   margin-left: 10px;
 }
 
+/*Updating margins and width of the main section which includes my information*/
 #main {
   margin: 10px 10px 0px 15px;
   width: 66vw;
 }
-
+/*Updating borders and margin and colors for the projects*/
 #projects {
   margin: 10px 10px 20px 15px;
   border: 5px solid black;
-  /* width: 30vw; */
   border-radius: 15px;
   background-color: darkolivegreen;
   color: wheat;
   box-shadow: 5px 10px 15px wheat;
 }
-
+/*Updating margins and height for my img's*/
 .img-info {
   width: 15%;
   height: 15%;
@@ -129,74 +136,61 @@ main {
   box-shadow: 5px 5px 10px gray;
 }
 
+/*Updating container as a flex to help align my items*/
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/*floating items left to make it look nice and adjusting sizes*/
 .column {
   width: 50%;
   height: 100vh;
   float: left;
 }
-
+/*setting a class to decide what i want a flex to be*/
 .flex {
   display: flex;
 }
-
+/*using for the projects bar*/
 .flex div {
   margin: 10px;
 }
-
+/*adding border radius to img*/
 .prework {
-  height: 10vh;
+  height: 20vh;
   border-radius: 15px;
 }
+
+/*adding border radius to img*/
+/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
 .bootcamp {
   width: 97% !important;
   border-radius: 15px;
 }
-
+/*adding width to take up the whole aspect to img*/
 #projects img {
   width: 100%;
 }
-
+/*updating the me section*/
 .me {
   border: 0.2rem solid black;
   border-radius: 10px;
   margin: 0.5rem 0px;
   min-height: 33vh;
 }
-
+/*updating the extra sections*/
 .extra {
   border: 0.2rem solid black;
   margin: 5rem 0px;
   border-radius: 10px;
   min-height: 20vh;
 }
-/* 
-@media (max-width: 1200px) {
-  aside {
-    flex-direction: row;
-  }
-  main {
-    flex-direction: column;
-  }
-  header {
-    text-align: center;
-    justify-content: center;
-  }
-  img {
-    height: 30%;
-    width: 50%;
-  }
-} */
-
+/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
 section {
   height: 100% !important;
 }
-
+/*media screens for different sizes and how my website will proportion itself*/
 @media only screen and (max-width: 2000px) {
   .flex {
     display: block;
