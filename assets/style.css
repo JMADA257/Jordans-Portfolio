@@ -30,10 +30,7 @@ aside {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  width: 30vw !important;
 }
-/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
-
 /*Used to center all imgs and put margins on for 1rem which equals 20px*/
 img {
   align-self: center;
@@ -96,6 +93,10 @@ footer {
 li {
   margin-left: 15px;
 }
+/*controlling height for all sections*/
+section {
+  height: 100%;
+}
 
 /*Needed main to be a flex to control it better*/
 main {
@@ -126,6 +127,16 @@ main {
   color: wheat;
   box-shadow: 5px 10px 15px wheat;
 }
+/*controlling width for the aside where the projects are located*/
+.aside {
+  max-width: 30%;
+}
+/*controlling sizing for the img with a class of projcard*/
+.projCard img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
 /*Updating margins and height for my img's*/
 .img-info {
   width: 15%;
@@ -142,7 +153,6 @@ main {
 }
 /*floating items left to make it look nice and adjusting sizes*/
 .column {
-  width: 50%;
   height: 100vh;
   float: left;
 }
@@ -161,9 +171,8 @@ main {
 }
 
 /*adding border radius to img*/
-/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
 .bootcamp {
-  width: 97% !important;
+  max-width: 97%;
   border-radius: 15px;
 }
 /*adding width to take up the whole aspect to img*/
@@ -183,10 +192,6 @@ main {
   margin: 5rem 0px;
   border-radius: 10px;
   min-height: 20vh;
-}
-/* My instructor told me not to use !important tags but my tutor told me to put it here as well with the media's so I was confused whether to keep them or not?*/
-section {
-  height: 100% !important;
 }
 /*media screens for different sizes and how my website will proportion itself*/
 @media only screen and (max-width: 2000px) {
@@ -208,9 +213,14 @@ section {
     height: 100% !important;
   }
   .prework {
-    height: 100% !important;
+    height: 85% !important;
   }
   #main {
     width: 97%;
+  }
+  .aside {
+    max-width: 100%;
+  }
+   {
   }
 }
